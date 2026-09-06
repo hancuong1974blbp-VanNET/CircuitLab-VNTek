@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,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">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEQklEQVR42s1XTWgdVRT+zv2Z95smr01M7GuRJKalDdZaF4KFojR2UWhJqdGNCzeCEkRoQWjBlaArK1IqiuLKTatisbhJ4yYYQVSsP2mJNbGlSUnznn3N78ubufceF/PeJCk1jS9t4oHDDMPMd75z7rnnm0sA0HWG5WfPkX3kvT826brWV+1U/oCd/vthuEABIKzMGEIbmd7wp6ypPxfcGjr522tbRioxqXLz6KmxTlh7am7g/MbZgV6YW6OAs+X4XGXs8rdCQtVlkWzvQLz9meuQsvuX7qazXWdYEgA89sHNA26m8NXNL46jePk7I7ykhNREVH3oRRQYgA3Y+bM20fakWn/4LYhU5uDPL68/R49/OP1gMDP+a+HzY/VzQ99bUdMgw8x55dEXsgABQsJN5Wy89QmZefbtvE49sEM4wUdKg331xcv9YXAbAOzKtO+RM4eYNoCoaZDFy/22NNhX7wQfEbY40Tl7sZeFl6Qw8/tszkJ4SZq92Mu2ONGp3EyhxRRGCcqjMOv7bMyA8oQpjMLNFFoE2IlVyfwOlQA7oZbVQySqTNbd9R11dxCG8YtVEZDaAxFVT4CZIbWHTLa5KgKT46Owgb8kCbVU2Y1fRCbbjOff+bIqAqePHkL+yiB0LPGvy6EAgARFHm0EonmvegAtxKDyo/CeBM0T8Gd8mGkfRAwVn6+AMwGcMRHeC/oUMnQDDA26bUwyCIQABW7Ep0F32OjGhBhSRRUwcwBzAAU/JGBKjG37t6B9XwOG+q7j0tfXIDSBIKD8IuLp2ihIA91AHY0A8O4gUATAX7Sm8XQtErXrob0EGA4uYOzs2ozWPRsx0JNDrsRQ9Zss9r64E15cIrurEbsOvg4uPQQQl0slI8AAHrjsd65A+E7F9h97HxzpCoFiV5FuOQ+pYmjakUVvr4WSiiEVwfgWQgM1TY3AXF30F8AOCOaqa4H0hhpEI4QBxOcACRjfQiqCVAw1flWh/+NBtO9rwHD/GIa+OQ6lw/8QE5RQ27QZT7/yJgBAwwfBL3Pj2xYgXAJdXlsA6Hn3DUyMXYPSMQAMExi07tVo2d2EgZ4cxukpKOkRfvzoAn76ZBLWJzBK5cYV8EtFNDRviwBz3AgD3LUJKzb6+w/I/XUJXnkbMgMjF2L49iSD1To0vURhz3gpD2aK4KW9coOFBEhpeMlUBFjp7uWal0whlloHHYsvmgPO+NApb34bsmPMXzlqanYW7Fz1wudchDFPgLAwplpKSKT2MDk+itNHD1U9iqX2lhQltfQgI9jAR/7K4NqIUYWEjiXWTo6XC1StCZBwWDDtVs2EBEg4IVKZYZXJMozvVqR8/0Uhje9UJssilRkWMlF7Nrm9g5w/y6tSCSHh/FlObu8gmag9K4SjE7Gte/KJtt3STeUspAZILNDwe+BEIabUcFM5m2jbLWNb9+SFoxNrfzT7XxxO1/J4/g9EzUCmL8t5gwAAAABJRU5ErkJggg==">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEQklEQVR42s1XTWgdVRT+zv2Z95smr01M7GuRJKalDdZaF4KFojR2UWhJqdGNCzeCEkRoQWjBlaArK1IqiuLKTatisbhJ4yYYQVSsP2mJNbGlSUnznn3N78ubufceF/PeJCk1jS9t4oHDDMPMd75z7rnnm0sA0HWG5WfPkX3kvT826brWV+1U/oCd/vthuEABIKzMGEIbmd7wp6ypPxfcGjr522tbRioxqXLz6KmxTlh7am7g/MbZgV6YW6OAs+X4XGXs8rdCQtVlkWzvQLz9meuQsvuX7qazXWdYEgA89sHNA26m8NXNL46jePk7I7ykhNREVH3oRRQYgA3Y+bM20fakWn/4LYhU5uDPL68/R49/OP1gMDP+a+HzY/VzQ99bUdMgw8x55dEXsgABQsJN5Wy89QmZefbtvE49sEM4wUdKg331xcv9YXAbAOzKtO+RM4eYNoCoaZDFy/22NNhX7wQfEbY40Tl7sZeFl6Qw8/tszkJ4SZq92Mu2ONGp3EyhxRRGCcqjMOv7bMyA8oQpjMLNFFoE2IlVyfwOlQA7oZbVQySqTNbd9R11dxCG8YtVEZDaAxFVT4CZIbWHTLa5KgKT46Owgb8kCbVU2Y1fRCbbjOff+bIqAqePHkL+yiB0LPGvy6EAgARFHm0EonmvegAtxKDyo/CeBM0T8Gd8mGkfRAwVn6+AMwGcMRHeC/oUMnQDDA26bUwyCIQABW7Ep0F32OjGhBhSRRUwcwBzAAU/JGBKjG37t6B9XwOG+q7j0tfXIDSBIKD8IuLp2ihIA91AHY0A8O4gUATAX7Sm8XQtErXrob0EGA4uYOzs2ozWPRsx0JNDrsRQ9Zss9r64E15cIrurEbsOvg4uPQQQl0slI8AAHrjsd65A+E7F9h97HxzpCoFiV5FuOQ+pYmjakUVvr4WSiiEVwfgWQgM1TY3AXF30F8AOCOaqa4H0hhpEI4QBxOcACRjfQiqCVAw1flWh/+NBtO9rwHD/GIa+OQ6lw/8QE5RQ27QZT7/yJgBAwwfBL3Pj2xYgXAJdXlsA6Hn3DUyMXYPSMQAMExi07tVo2d2EgZ4cxukpKOkRfvzoAn76ZBLWJzBK5cYV8EtFNDRviwBz3AgD3LUJKzb6+w/I/XUJXnkbMgMjF2L49iSD1To0vURhz3gpD2aK4KW9coOFBEhpeMlUBFjp7uWal0whlloHHYsvmgPO+NApb34bsmPMXzlqanYW7Fz1wudchDFPgLAwplpKSKT2MDk+itNHD1U9iqX2lhQltfQgI9jAR/7K4NqIUYWEjiXWTo6XC1StCZBwWDDtVs2EBEg4IVKZYZXJMozvVqR8/0Uhje9UJssilRkWMlF7Nrm9g5w/y6tSCSHh/FlObu8gmag9K4SjE7Gte/KJtt3STeUspAZILNDwe+BEIabUcFM5m2jbLWNb9+SFoxNrfzT7XxxO1/J4/g9EzUCmL8t5gwAAAABJRU5ErkJggg==">
+<title>CircuitLab VN – Mô phỏng mạch điện</title>
+<style>
+* { box-sizing: border-box; }
+html,body{margin:0;padding:0;height:100%;font-family:Tahoma,Arial,sans-serif;font-size:12px;background:#20242b;color:#e6e9ef;}
+#app{display:block;height:100%;}
+#top{height:38px;background:#171a20;border-bottom:1px solid #000;padding:4px 6px;white-space:nowrap;overflow:hidden;}
+#top b{color:#7ec8ff;font-size:14px;margin-right:10px;}
+button{font-family:Tahoma,Arial,sans-serif;font-size:11px;background:#2f3540;color:#e6e9ef;border:1px solid #454c59;padding:4px 8px;margin-right:3px;cursor:pointer;border-radius:3px;}
+button:hover{background:#3d4552;}
+button.on{background:#1d6fb8;border-color:#2a8ede;color:#fff;}
+input,select{font-family:Tahoma,Arial,sans-serif;font-size:11px;background:#262b33;color:#e6e9ef;border:1px solid #454c59;padding:3px;border-radius:2px;}
+#main{position:absolute;left:0;right:0;top:38px;bottom:22px;}
+#left{position:absolute;left:0;top:0;bottom:0;width:186px;background:#1b1f26;border-right:1px solid #000;overflow:auto;}
+#right{position:absolute;right:0;top:0;bottom:0;width:262px;background:#1b1f26;border-left:1px solid #000;overflow:auto;}
+#center{position:absolute;left:186px;right:262px;top:0;bottom:0;overflow:hidden;background:#11141a;}
+#cv{display:block;cursor:crosshair;}
+.sec{padding:6px 8px;border-bottom:1px solid #2a2f38;}
+.sec h3{margin:0 0 5px 0;font-size:11px;color:#8fb6d8;text-transform:uppercase;letter-spacing:1px;}
+.pal{cursor:pointer;padding:3px 5px;border:1px solid transparent;border-radius:3px;color:#cfd6e0;}
+.pal:hover{background:#262c35;}
+.pal.sel{background:#1d6fb8;color:#fff;}
+.row{margin-bottom:4px;}
+.row label{display:inline-block;width:104px;color:#a9b3c1;}
+.row input,.row select{width:120px;}
+#scope{background:#05080c;border:1px solid #2a2f38;display:block;width:246px;height:150px;}
+#stat{position:absolute;left:0;right:0;bottom:0;height:22px;background:#171a20;border-top:1px solid #000;padding:4px 8px;color:#9aa5b2;overflow:hidden;white-space:nowrap;}
+#tbl{width:100%;border-collapse:collapse;}
+#tbl td{border-bottom:1px solid #262c35;padding:2px 3px;font-size:11px;}
+.k{color:#8fb6d8;}
+.warn{color:#ffb454;}
+.err{color:#ff6b6b;}
+.ok{color:#7fdc8c;}
+legend{color:#8fb6d8;}
+</style>
+</head>
+<body>
+<div id="app">
+<div id="top">
+<b>CircuitLab VN</b>
+<button id="bMode0" class="on">Chọn / Kéo</button>
+<button id="bMode1">Dây dẫn</button>
+<button id="bMode2">Xóa</button>
+<button id="bRot">Quay (R)</button>
+<button id="bDel">Xóa mục chọn (Del)</button>
+<span style="color:#454c59"> | </span>
+<button id="bRun">&#9658; Chạy</button>
+<button id="bStop">&#9632; Dừng</button>
+<button id="bDC">Phân tích DC</button>
+<span style="color:#454c59"> | </span>
+<button id="bNew">Mới</button>
+<button id="bSave">Lưu file</button>
+<button id="bLoad">Mở file</button>
+<button id="bDemo">Mạch mẫu</button>
+<input type="file" id="fIn" style="display:none">
+</div>
+<div id="main">
+  <div id="left">
+    <div class="sec"><h3>Thư viện linh kiện</h3><div id="palette"></div></div>
+    <div class="sec"><h3>Hướng dẫn nhanh</h3><div style="color:#9aa5b2;line-height:1.6">
+      1. Chọn linh kiện rồi nhấp vào lưới<br>
+      2. <b>R</b> quay &middot; <b>Del</b> xóa &middot; <b>Esc</b> huỷ<br>
+      3. Nut <b>Dây dẫn</b> (W): kéo từ chân này sang chân khác<br>
+      4. Nhấp đôi: bật/tắt công tắc, đầu vào logic<br>
+      5. Chuột phải lên dây/chân: đặt que đo<br>
+      6. Shift + kéo chuột: di chuyển bản vẽ<br>
+      7. <b>Space</b>: chạy / dừng mô phỏng<br>
+      <span class="warn">Mạch cần có linh kiện Mass (GND).</span>
+    </div></div>
+  </div>
+  <div id="center"><canvas id="cv" width="900" height="600"></canvas></div>
+  <div id="right">
+    <div class="sec"><h3>Thuộc tính</h3><div id="props">Chưa chọn linh kiện.</div></div>
+    <div class="sec"><h3>Mô phỏng</h3>
+      <div class="row"><label>Bước thội gian (s)</label><input id="iDt" value="1e-5"></div>
+      <div class="row"><label>Tốc độ (bước/khung)</label><input id="iSpeed" value="40"></div>
+      <div class="row"><label>Thang đo dao động</label><input id="iVdiv" value="auto"></div>
+      <div class="row"><label>Hiện dòng điện</label><input type="checkbox" id="iFlow" checked></div>
+      <div class="row"><label>Hiện nhãn nút</label><input type="checkbox" id="iNodes"></div>
+    </div>
+    <div class="sec"><h3>Dao động ký</h3><canvas id="scope" width="246" height="150"></canvas>
+      <div id="probes" style="margin-top:5px;color:#9aa5b2">Nhấp chuột phải vào dây/chân để đo.</div>
+    </div>
+    <div class="sec"><h3>Kết quả</h3><table id="tbl"><tbody id="tbody"></tbody></table></div>
+  </div>
+</div>
+<div id="stat">Sẵn sàng. Chọn linh kiện bên trái rồi nhấp vào lưới để đặt.</div>
+</div>
+<script type="text/javascript">
+/* ================= CircuitLab VN - ES5, tuong thich Windows 7 ================= */
+(function(){
+"use strict";
+var GRID=20;
+/* bo sung cho trinh duyet cu (IE9/IE10/IE11 tren Windows 7) */
+if(!Math.tanh){Math.tanh=function(x){if(x>20)return 1;if(x<-20)return -1;var e2=Math.exp(2*x);return (e2-1)/(e2+1);};}
+if(!Array.prototype.indexOf){Array.prototype.indexOf=function(o){for(var i=0;i<this.length;i++)if(this[i]===o)return i;return -1;};}
+function $(id){return document.getElementById(id);}
+function snap(v){return Math.round(v/GRID)*GRID;}
+function dist(x1,y1,x2,y2){var dx=x2-x1,dy=y2-y1;return Math.sqrt(dx*dx+dy*dy);}
+function fmt(v,u){
+  if(v===undefined||v===null||isNaN(v))return "?";
+  var a=Math.abs(v),s="";
+  if(a>=1e9){s=(v/1e9).toFixed(3)+" G";}
+  else if(a>=1e6){s=(v/1e6).toFixed(3)+" M";}
+  else if(a>=1e3){s=(v/1e3).toFixed(3)+" k";}
+  else if(a>=1){s=v.toFixed(3)+" ";}
+  else if(a>=1e-3){s=(v*1e3).toFixed(3)+" m";}
+  else if(a>=1e-6){s=(v*1e6).toFixed(3)+" u";}
+  else if(a>=1e-9){s=(v*1e9).toFixed(3)+" n";}
+  else if(a>=1e-12){s=(v*1e12).toFixed(3)+" p";}
+  else {s="0 ";}
+  return s+(u||"");
+}
+function parseVal(s){
+  if(typeof s==="number")return s;
+  s=(""+s).replace(/\s+/g,"");
+  var m=/^(-?[0-9.]+(?:[eE][-+]?[0-9]+)?)([a-zA-Z]*)$/.exec(s);
+  if(!m)return 0;
+  var v=parseFloat(m[1]),p=m[2];
+  var mul={p:1e-12,n:1e-9,u:1e-6,micro:1e-6,m:1e-3,k:1e3,K:1e3,M:1e6,meg:1e6,MEG:1e6,G:1e9,g:1e9};
+  if(p){
+    var p1=p.charAt(0);
+    if(p==="meg"||p==="MEG"||p==="Meg")v*=1e6;
+    else if(mul[p1]!==undefined)v*=mul[p1];
+  }
+  return v;
+}
+/* ---------- ve co ban ---------- */
+var G; /* canvas 2d context dung chung khi ve linh kien */
+function bp(){G.beginPath();}
+function ln(x1,y1,x2,y2){G.beginPath();G.moveTo(x1,y1);G.lineTo(x2,y2);G.stroke();}
+function poly(pts,close,fill){
+  G.beginPath();G.moveTo(pts[0][0],pts[0][1]);
+  for(var i=1;i<pts.length;i++)G.lineTo(pts[i][0],pts[i][1]);
+  if(close)G.closePath();
+  if(fill)G.fill();else G.stroke();
+}
+function circ(x,y,r,fill){G.beginPath();G.arc(x,y,r,0,Math.PI*2,false);if(fill)G.fill();else G.stroke();}
+function txt(s,x,y,align,col){
+  G.save();G.fillStyle=col||"#9fd3ff";G.font="10px Tahoma";G.textAlign=align||"center";
+  G.fillText(s,x,y);G.restore();
+}
+var P2=[[-20,0],[20,0]];
+var P2L=[[-30,0],[30,0]];
+var P3B=[[-20,0],[20,-20],[20,20]];
+var P3G=[[-40,-20],[-40,20],[40,0]];
+
+/* ---------- dinh nghia linh kien ---------- */
+/* nhom: 1 co ban, 2 nguon, 3 ban dan, 4 so, 5 do luong/khac */
+var TYPES={};
+function def(o){TYPES[o.id]=o;return o;}
+
+def({id:"r",nm:"Điện trở",grp:1,pins:P2,ps:[{k:"v",l:"Điện trở (Ω)",d:"1k"}],
+ dr:function(e){ln(-20,0,-12,0);ln(12,0,20,0);G.strokeRect(-12,-6,24,12);txt(e.p.v+"\u03A9",0,-11);}});
+def({id:"pot",nm:"Biến trở",grp:1,pins:[[-20,0],[20,0],[0,-20]],ps:[{k:"v",l:"Tổng (Ω)",d:"10k"},{k:"pos",l:"Vị trí 0..1",d:"0.5"}],
+ dr:function(e){ln(-20,0,-12,0);ln(12,0,20,0);G.strokeRect(-12,-6,24,12);ln(0,-20,0,-9);poly([[-3,-9],[3,-9],[0,-5]],true,true);txt(e.p.v,0,17);}});
+def({id:"c",nm:"Tụ điện",grp:1,pins:P2,ps:[{k:"v",l:"Điện dung (F)",d:"1u"},{k:"ic",l:"Điện áp ban đầu (V)",d:"0"}],
+ dr:function(e){ln(-20,0,-4,0);ln(20,0,4,0);ln(-4,-9,-4,9);ln(4,-9,4,9);txt(e.p.v+"F",0,-13);}});
+def({id:"ce",nm:"Tụ hóa (có cực)",grp:1,pins:P2,ps:[{k:"v",l:"Điện dung (F)",d:"100u"},{k:"ic",l:"Điện áp ban đầu (V)",d:"0"}],
+ dr:function(e){ln(-20,0,-4,0);ln(20,0,5,0);ln(-4,-9,-4,9);G.beginPath();G.arc(11,0,7,Math.PI*0.62,Math.PI*1.38,false);G.stroke();txt("+",-9,-8);txt(e.p.v+"F",0,-13);}});
+def({id:"l",nm:"Cuộn cảm",grp:1,pins:P2,ps:[{k:"v",l:"Độ tự cảm (H)",d:"1m"},{k:"il",l:"Dòng ban đầu (A)",d:"0"}],
+ dr:function(e){ln(-20,0,-15,0);ln(15,0,20,0);G.beginPath();for(var i=0;i<3;i++)G.arc(-10+i*10,0,5,Math.PI,0,false);G.stroke();txt(e.p.v+"H",0,-11);}});
+def({id:"gnd",nm:"Mass (GND)",grp:1,pins:[[0,0]],ps:[],
+ dr:function(){ln(0,0,0,8);ln(-10,8,10,8);ln(-6,12,6,12);ln(-2,16,2,16);}});
+def({id:"w",nm:"Điểm nối",grp:1,pins:[[0,0]],ps:[],dr:function(){circ(0,0,3,true);}});
+def({id:"fuse",nm:"Cầu chì",grp:1,pins:P2,ps:[{k:"v",l:"Điện trở (Ω)",d:"0.05"},{k:"imax",l:"Dòng làm đứt (A)",d:"1"}],
+ dr:function(e){ln(-20,0,-12,0);ln(12,0,20,0);G.strokeRect(-12,-6,24,12);
+   if(e.blown){G.strokeStyle="#ff6b6b";ln(-8,-4,8,4);ln(-8,4,8,-4);}else{ln(-12,0,12,0);}txt(e.p.imax+"A",0,-11);}});
+def({id:"sw",nm:"Công tắc (SPST)",grp:1,pins:P2,ps:[{k:"on",l:"Đóng (1/0)",d:"0"}],
+ dr:function(e){ln(-20,0,-8,0);ln(8,0,20,0);circ(-8,0,2,true);circ(8,0,2,true);
+  if(parseVal(e.p.on)>0.5)ln(-8,0,8,0);else ln(-8,0,7,-10);txt(parseVal(e.p.on)>0.5?"ON":"OFF",0,17);}});
+def({id:"push",nm:"Nút nhấn",grp:1,pins:P2,ps:[{k:"on",l:"Đang nhấn (1/0)",d:"0"}],
+ dr:function(e){ln(-20,0,-8,0);ln(8,0,20,0);circ(-8,0,2,true);circ(8,0,2,true);
+  var y=parseVal(e.p.on)>0.5?0:-7;ln(-10,y,10,y);ln(0,y,0,y-6);ln(-6,y-6,6,y-6);}});
+def({id:"lamp",nm:"Bóng đèn",grp:1,pins:P2,ps:[{k:"v",l:"Điện trở (Ω)",d:"100"},{k:"pn",l:"Công suất định mức (W)",d:"1"}],
+ dr:function(e){var g=e.glow||0;if(g>0.02){G.save();G.fillStyle="rgba(255,220,80,"+Math.min(1,g)+")";circ(0,0,10,true);G.restore();}
+  ln(-20,0,-10,0);ln(10,0,20,0);circ(0,0,10,false);ln(-7,-7,7,7);ln(-7,7,7,-7);}});
+def({id:"buz",nm:"Loa / Buzzer",grp:1,pins:P2,ps:[{k:"v",l:"Điện trở (Ω)",d:"8"}],
+ dr:function(){ln(-20,0,-8,0);ln(8,0,20,0);G.strokeRect(-8,-8,8,16);poly([[0,-8],[8,-14],[8,14],[0,8]],true,false);}});
+def({id:"motor",nm:"Động cơ DC",grp:1,pins:P2,ps:[{k:"v",l:"Điện trở (Ω)",d:"20"},{k:"ke",l:"Hằng số sức phản điện",d:"0"}],
+ dr:function(){ln(-20,0,-12,0);ln(12,0,20,0);circ(0,0,12,false);txt("M",0,4,"center","#e6e9ef");}});
+def({id:"xfmr",nm:"Biến áp",grp:1,pins:[[-20,-20],[-20,20],[20,-20],[20,20]],
+ ps:[{k:"lp",l:"L sơ cấp (H)",d:"1"},{k:"n",l:"Tỷ số vòng N2/N1",d:"0.5"}],
+ dr:function(e){ln(-20,-20,-8,-20);ln(-20,20,-8,20);ln(20,-20,8,-20);ln(20,20,8,20);
+  G.beginPath();for(var i=0;i<3;i++)G.arc(-8,-12+i*12,6,-Math.PI/2,Math.PI/2,false);G.stroke();
+  G.beginPath();for(i=0;i<3;i++)G.arc(8,-12+i*12,6,Math.PI/2,-Math.PI/2,false);G.stroke();
+  ln(-2,-20,-2,20);ln(2,-20,2,20);txt("1:"+e.p.n,0,32);}});
+/* ---------- nguon ---------- */
+def({id:"vdc",nm:"Nguồn DC",grp:2,pins:P2,ps:[{k:"v",l:"Điện áp (V)",d:"5"}],
+ dr:function(e){ln(-20,0,-6,0);ln(20,0,6,0);circ(0,0,10,false);txt("+",-5,-3);txt("\u2212",5,-3);txt(e.p.v+"V",0,22);}});
+def({id:"bat",nm:"Pin / Battery",grp:2,pins:P2,ps:[{k:"v",l:"Điện áp (V)",d:"9"},{k:"rs",l:"Nội trở (Ω)",d:"0.1"}],
+ dr:function(e){ln(-20,0,-6,0);ln(20,0,6,0);ln(-6,-10,-6,10);ln(-1,-5,-1,5);ln(4,-10,4,10);ln(9,-5,9,5);txt(e.p.v+"V",0,-14);}});
+def({id:"vac",nm:"Nguồn AC (sin)",grp:2,pins:P2,ps:[{k:"a",l:"Biên độ (V)",d:"5"},{k:"f",l:"Tần số (Hz)",d:"1k"},{k:"ph",l:"Pha (độ)",d:"0"},{k:"off",l:"Offset (V)",d:"0"}],
+ dr:function(e){ln(-20,0,-10,0);ln(20,0,10,0);circ(0,0,10,false);
+  G.beginPath();G.moveTo(-6,0);G.bezierCurveTo(-3,-8,0,-8,0,0);G.bezierCurveTo(0,8,3,8,6,0);G.stroke();txt(e.p.a+"V "+e.p.f+"Hz",0,22);}});
+def({id:"vpul",nm:"Nguồn xung vuông",grp:2,pins:P2,ps:[{k:"lo",l:"Mức thấp (V)",d:"0"},{k:"hi",l:"Mức cao (V)",d:"5"},{k:"f",l:"Tần số (Hz)",d:"1k"},{k:"duty",l:"Duty 0..1",d:"0.5"}],
+ dr:function(e){ln(-20,0,-10,0);ln(20,0,10,0);circ(0,0,10,false);poly([[-6,4],[-3,4],[-3,-4],[2,-4],[2,4],[6,4]],false,false);txt(e.p.f+"Hz",0,22);}});
+def({id:"idc",nm:"Nguồn dòng DC",grp:2,pins:P2,ps:[{k:"v",l:"Dòng điện (A)",d:"1m"}],
+ dr:function(e){ln(-20,0,-10,0);ln(20,0,10,0);circ(0,0,10,false);ln(-5,0,5,0);poly([[5,0],[1,-3],[1,3]],true,true);txt(e.p.v+"A",0,22);}});
+def({id:"vcvs",nm:"Nguồn áp điều khiển bằng áp (E)",grp:2,pins:[[-30,-20],[-30,20],[30,-20],[30,20]],ps:[{k:"g",l:"Hệ số khuếch đại",d:"10"}],
+ dr:function(e){poly([[-14,-18],[14,0],[-14,18]],true,false);ln(-30,-20,-20,-20);ln(-30,20,-20,20);ln(-20,-20,-20,18);ln(30,-20,20,-20);ln(30,20,20,20);ln(20,-20,20,20);txt("E="+e.p.g,0,-24);}});
+def({id:"vccs",nm:"Nguồn dòng điều khiển bằng áp (G)",grp:2,pins:[[-30,-20],[-30,20],[30,-20],[30,20]],ps:[{k:"g",l:"Hỗ dẫn (S)",d:"1m"}],
+ dr:function(e){poly([[-14,-18],[14,0],[-14,18]],true,false);ln(-30,-20,-20,-20);ln(-30,20,-20,20);ln(-20,-20,-20,18);ln(30,-20,20,-20);ln(30,20,20,20);ln(20,-20,20,20);txt("G="+e.p.g,0,-24);}});
+
+/* ---------- ban dan ---------- */
+def({id:"d",nm:"Diode",grp:3,pins:P2,ps:[{k:"is",l:"Dòng rò Is (A)",d:"1e-14"},{k:"n",l:"Hệ số phát xạ",d:"1"}],
+ dr:function(){ln(-20,0,-6,0);ln(8,0,20,0);poly([[-6,-8],[-6,8],[8,0]],true,false);ln(8,-8,8,8);}});
+def({id:"zener",nm:"Diode Zener",grp:3,pins:P2,ps:[{k:"vz",l:"Điện áp Zener (V)",d:"5.1"}],
+ dr:function(e){ln(-20,0,-6,0);ln(8,0,20,0);poly([[-6,-8],[-6,8],[8,0]],true,false);poly([[3,-8],[8,-8],[8,8],[13,8]],false,false);txt(e.p.vz+"V",0,-13);}});
+def({id:"led",nm:"LED",grp:3,pins:P2,ps:[{k:"vf",l:"Điện áp thuận (V)",d:"2"},{k:"col",l:"Màu (red/green/blue/yellow)",d:"red"}],
+ dr:function(e){var g=e.glow||0;var cm={red:"255,70,70",green:"90,255,120",blue:"110,170,255",yellow:"255,230,90"};var c=cm[e.p.col]||"255,70,70";
+  if(g>0.02){G.save();G.fillStyle="rgba("+c+","+Math.min(1,g)+")";circ(1,0,11,true);G.restore();}
+  ln(-20,0,-6,0);ln(8,0,20,0);G.save();G.fillStyle="rgba("+c+",0.35)";poly([[-6,-8],[-6,8],[8,0]],true,true);G.restore();poly([[-6,-8],[-6,8],[8,0]],true,false);ln(8,-8,8,8);
+  ln(6,-11,12,-17);ln(11,-9,17,-15);}});
+def({id:"npn",nm:"Transistor NPN",grp:3,pins:P3B,ps:[{k:"bf",l:"Beta (hFE)",d:"100"},{k:"is",l:"Is (A)",d:"1e-14"}],
+ dr:function(e){ln(-20,0,-6,0);ln(-6,-12,-6,12);ln(-6,-6,20,-20);ln(-6,6,14,16);
+  poly([[14,16],[8,14],[12,9]],true,true);ln(14,16,20,20);txt("NPN",4,-22);}});
+def({id:"pnp",nm:"Transistor PNP",grp:3,pins:P3B,ps:[{k:"bf",l:"Beta (hFE)",d:"100"},{k:"is",l:"Is (A)",d:"1e-14"}],
+ dr:function(e){ln(-20,0,-6,0);ln(-6,-12,-6,12);ln(-6,-6,20,-20);ln(-6,6,20,20);
+  poly([[-6,6],[2,7],[0,12]],true,true);txt("PNP",4,-22);}});
+def({id:"nmos",nm:"MOSFET kenh N",grp:3,pins:P3B,ps:[{k:"vt",l:"Ngưỡng Vth (V)",d:"2"},{k:"kp",l:"K (A/V^2)",d:"0.05"}],
+ dr:function(){ln(-20,0,-10,0);ln(-10,-12,-10,12);ln(-4,-12,-4,-4);ln(-4,-2,-4,2);ln(-4,4,-4,12);
+  ln(-4,-10,20,-20);ln(-4,10,20,20);ln(-4,0,10,0);poly([[10,0],[5,-3],[5,3]],true,true);txt("N",6,-22);}});
+def({id:"pmos",nm:"MOSFET kenh P",grp:3,pins:P3B,ps:[{k:"vt",l:"Ngưỡng |Vth| (V)",d:"2"},{k:"kp",l:"K (A/V^2)",d:"0.05"}],
+ dr:function(){ln(-20,0,-10,0);ln(-10,-12,-10,12);ln(-4,-12,-4,-4);ln(-4,-2,-4,2);ln(-4,4,-4,12);
+  ln(-4,-10,20,-20);ln(-4,10,20,20);ln(-4,0,10,0);poly([[-4,0],[1,-3],[1,3]],true,true);txt("P",6,-22);}});
+def({id:"opamp",nm:"Khuếch đại thuật toán (Op-Amp)",grp:3,pins:[[-40,-20],[-40,20],[40,0]],ps:[{k:"g",l:"Độ lợi hở",d:"1e5"},{k:"vp",l:"Bão hòa + (V)",d:"12"},{k:"vn",l:"Bão hòa - (V)",d:"-12"}],
+ dr:function(){ln(-40,-20,-24,-20);ln(-40,20,-24,20);ln(24,0,40,0);poly([[-24,-26],[-24,26],[24,0]],true,false);txt("+",-17,-16,"center","#e6e9ef");txt("\u2212",-17,24,"center","#e6e9ef");}});
+def({id:"relay",nm:"Rơ-le (Relay)",grp:3,pins:[[-40,20],[40,20],[-40,-20],[40,-20]],ps:[{k:"rc",l:"Điện trở cuộn (Ω)",d:"200"},{k:"vp",l:"Ngưỡng hút (V)",d:"3"}],
+ dr:function(e){ln(-40,20,-24,20);ln(24,20,40,20);G.strokeRect(-24,12,48,16);
+  ln(-40,-20,-20,-20);ln(20,-20,40,-20);circ(-20,-20,2,true);circ(20,-20,2,true);
+  if(e.closed)ln(-20,-20,20,-20);else ln(-20,-20,18,-30);txt("RL",0,8);}});
+/* ---------- mach so ---------- */
+function gateBox(lbl,inv){
+  G.strokeRect(-22,-24,44,48);txt(lbl,0,4,"center","#e6e9ef");
+  ln(-40,-20,-22,-20);ln(-40,20,-22,20);
+  if(inv){circ(26,0,4,false);ln(30,0,40,0);}else{ln(22,0,40,0);}
+}
+var dgp=[{k:"vdd",l:"Mức logic 1 (V)",d:"5"},{k:"th",l:"Ngưỡng (V)",d:"2.5"}];
+def({id:"and",nm:"Cổng AND",grp:4,pins:P3G,ps:dgp,dr:function(){gateBox("AND",false);}});
+def({id:"or",nm:"Cổng OR",grp:4,pins:P3G,ps:dgp,dr:function(){gateBox("OR",false);}});
+def({id:"nand",nm:"Cổng NAND",grp:4,pins:P3G,ps:dgp,dr:function(){gateBox("NAND",true);}});
+def({id:"nor",nm:"Cổng NOR",grp:4,pins:P3G,ps:dgp,dr:function(){gateBox("NOR",true);}});
+def({id:"xor",nm:"Cổng XOR",grp:4,pins:P3G,ps:dgp,dr:function(){gateBox("XOR",false);}});
+def({id:"xnor",nm:"Cổng XNOR",grp:4,pins:P3G,ps:dgp,dr:function(){gateBox("XNOR",true);}});
+def({id:"not",nm:"Cổng NOT",grp:4,pins:P2L,ps:dgp,
+ dr:function(){ln(-30,0,-14,0);poly([[-14,-14],[-14,14],[16,0]],true,false);circ(20,0,4,false);ln(24,0,30,0);}});
+def({id:"lin",nm:"Đầu vào logic",grp:4,pins:[[20,0]],ps:[{k:"on",l:"Mức (1/0)",d:"0"},{k:"vdd",l:"Điện áp mức 1 (V)",d:"5"}],
+ dr:function(e){G.strokeRect(-20,-10,40,20);var on=parseVal(e.p.on)>0.5;txt(on?"1":"0",0,4,"center",on?"#7fdc8c":"#ff9a9a");ln(20,0,26,0);}});
+
+/* ---------- do luong ---------- */
+def({id:"vm",nm:"Vôn kế",grp:5,pins:P2,ps:[],
+ dr:function(e){ln(-20,0,-10,0);ln(20,0,10,0);circ(0,0,10,false);txt("V",0,4,"center","#e6e9ef");
+  if(e.res!==undefined)txt(fmt(e.res,"V"),0,22,"center","#7fdc8c");}});
+def({id:"am",nm:"Ampe kế",grp:5,pins:P2,ps:[],
+ dr:function(e){ln(-20,0,-10,0);ln(20,0,10,0);circ(0,0,10,false);txt("A",0,4,"center","#e6e9ef");
+  if(e.res!==undefined)txt(fmt(e.res,"A"),0,22,"center","#ffcf6b");}});
+def({id:"probe",nm:"Que đo điện áp",grp:5,pins:[[0,20]],ps:[],
+ dr:function(e){ln(0,20,0,8);poly([[-10,8],[10,8],[0,-4]],true,false);
+  if(e.res!==undefined)txt(fmt(e.res,"V"),0,-8,"center","#7fdc8c");}});
+def({id:"lbl",nm:"Ghi chú",grp:5,pins:[],ps:[{k:"t",l:"Nội dung",d:"Ghi chú"}],
+ dr:function(e){txt(e.p.t,0,4,"center","#ffcf6b");}});
+
+/* ---------- mo hinh du lieu ---------- */
+var els=[];      /* linh kien */
+var wires=[];    /* {x1,y1,x2,y2} */
+var sel=null, selWire=null, uid=1;
+function mkEl(type,x,y){
+  var t=TYPES[type],p={},i;
+  for(i=0;i<t.ps.length;i++)p[t.ps[i].k]=t.ps[i].d;
+  return {id:uid++,t:type,x:x,y:y,rot:0,p:p};
+}
+function rotPt(px,py,rot){
+  switch(rot&3){
+    case 0: return [px,py];
+    case 1: return [-py,px];
+    case 2: return [-px,-py];
+    default: return [py,-px];
+  }
+}
+function pinsOf(e){
+  var t=TYPES[e.t],out=[],i,q;
+  for(i=0;i<t.pins.length;i++){q=rotPt(t.pins[i][0],t.pins[i][1],e.rot);out.push([e.x+q[0],e.y+q[1]]);}
+  return out;
+}
+function bboxOf(e){
+  var ps=pinsOf(e),i,x1=e.x-22,y1=e.y-22,x2=e.x+22,y2=e.y+22;
+  for(i=0;i<ps.length;i++){x1=Math.min(x1,ps[i][0]-6);y1=Math.min(y1,ps[i][1]-6);x2=Math.max(x2,ps[i][0]+6);y2=Math.max(y2,ps[i][1]+6);}
+  return [x1,y1,x2,y2];
+}
+/* ---------- xay dung net (hop nhat cac chan trung toa do / noi bang day) ---------- */
+var netOf={}, nodeCnt=0, elNodes={}, noGnd=false;
+function key(x,y){return x+","+y;}
+function onSeg(px,py,w){
+  var L=dist(w.x1,w.y1,w.x2,w.y2);
+  if(L<1)return px===w.x1&&py===w.y1;
+  var minx=Math.min(w.x1,w.x2)-2,maxx=Math.max(w.x1,w.x2)+2;
+  var miny=Math.min(w.y1,w.y2)-2,maxy=Math.max(w.y1,w.y2)+2;
+  if(px<minx||px>maxx||py<miny||py>maxy)return false;
+  var cr=Math.abs((w.x2-w.x1)*(py-w.y1)-(w.y2-w.y1)*(px-w.x1))/L;
+  return cr<1.5;
+}
+/* kiem tra doan thang co cat qua o than linh kien (dung de tranh noi tat gia) */
+function segRect(x1,y1,x2,y2,rx1,ry1,rx2,ry2){
+  var t0=0,t1=1,dx=x2-x1,dy=y2-y1,i,p,q,r;
+  var ps=[-dx,dx,-dy,dy],qs=[x1-rx1,rx2-x1,y1-ry1,ry2-y1];
+  for(i=0;i<4;i++){
+    p=ps[i];q=qs[i];
+    if(p===0){if(q<0)return false;}
+    else{r=q/p;if(p<0){if(r>t1)return false;if(r>t0)t0=r;}else{if(r<t0)return false;if(r<t1)t1=r;}}
+  }
+  return true;
+}
+function wireCrossesBody(w){
+  var i,e;
+  for(i=0;i<els.length;i++){
+    e=els[i];
+    if(TYPES[e.t].pins.length<2)continue;
+    if(segRect(w.x1,w.y1,w.x2,w.y2,e.x-11,e.y-11,e.x+11,e.y+11))return true;
+  }
+  return false;
+}
+function buildNets(){
+  var par={},i,j,ps,k;
+  function find(a){while(par[a]!==a)a=par[a]=par[par[a]];return a;}
+  function add(a){if(par[a]===undefined)par[a]=a;}
+  function uni(a,b){add(a);add(b);a=find(a);b=find(b);if(a!==b)par[a]=b;}
+  for(i=0;i<wires.length;i++){uni(key(wires[i].x1,wires[i].y1),key(wires[i].x2,wires[i].y2));}
+  var pts=[];
+  for(i=0;i<els.length;i++){ps=pinsOf(els[i]);for(j=0;j<ps.length;j++){add(key(ps[j][0],ps[j][1]));pts.push(ps[j]);}}
+  for(i=0;i<wires.length;i++){pts.push([wires[i].x1,wires[i].y1]);pts.push([wires[i].x2,wires[i].y2]);}
+  var freeW=[];
+  for(i=0;i<wires.length;i++)freeW.push(!wireCrossesBody(wires[i]));
+  /* diem cuoi day nam tren than day khac -> noi kieu chu T */
+  for(i=0;i<wires.length;i++){
+    var eps=[[wires[i].x1,wires[i].y1],[wires[i].x2,wires[i].y2]];
+    for(j=0;j<wires.length;j++){
+      if(i===j||!freeW[j])continue;
+      for(var q=0;q<2;q++)if(onSeg(eps[q][0],eps[q][1],wires[j]))uni(key(eps[q][0],eps[q][1]),key(wires[j].x1,wires[j].y1));
+    }
+  }
+  /* chan linh kien nam tren day -> noi; bo qua day di xuyen qua than linh kien */
+  for(i=0;i<els.length;i++){
+    ps=pinsOf(els[i]);
+    for(j=0;j<wires.length;j++){
+      if(!freeW[j])continue;
+      var w2=wires[j],on=[],m;
+      for(m=0;m<ps.length;m++)if(onSeg(ps[m][0],ps[m][1],w2))on.push(m);
+      for(m=0;m<on.length;m++){
+        var pt=ps[on[m]];
+        var isEnd=(pt[0]===w2.x1&&pt[1]===w2.y1)||(pt[0]===w2.x2&&pt[1]===w2.y2);
+        if(on.length>=2&&!isEnd)continue;
+        uni(key(pt[0],pt[1]),key(w2.x1,w2.y1));
+      }
+    }
+  }
+  /* nút mass = 0 */
+  var gndRoots={},hasG=false;
+  for(i=0;i<els.length;i++)if(els[i].t==="gnd"){ps=pinsOf(els[i]);add(key(ps[0][0],ps[0][1]));gndRoots[find(key(ps[0][0],ps[0][1]))]=1;hasG=true;}
+  noGnd=!hasG;
+  if(!hasG&&pts.length){gndRoots[find(key(pts[0][0],pts[0][1]))]=1;}
+  netOf={};nodeCnt=1;var map={};
+  for(k in par){if(!par.hasOwnProperty(k))continue;
+    var r=find(k);
+    if(gndRoots[r]){netOf[k]=0;continue;}
+    if(map[r]===undefined)map[r]=nodeCnt++;
+    netOf[k]=map[r];
+  }
+  elNodes={};
+  for(i=0;i<els.length;i++){ps=pinsOf(els[i]);var ns=[];
+    for(j=0;j<ps.length;j++){var kk=key(ps[j][0],ps[j][1]);ns.push(netOf[kk]===undefined?0:netOf[kk]);}
+    elNodes[els[i].id]=ns;
+  }
+  return nodeCnt;
+}
+/* =============== BO GIAI MACH (MNA + Newton-Raphson) =============== */
+var VT=0.025865, GMIN=1e-12;
+var A=[],B=[],X=[],XP=[],N=0,simTime=0,dt=1e-5,running=false,simMsg="",iterLast=0;
+var branchCnt=0,intNodeCnt=0;
+
+function needBranch(t){
+  return t==="vdc"||t==="bat"||t==="vac"||t==="vpul"||t==="am"||t==="lin"||t==="opamp"||t==="vcvs"||t==="xfmr"||
+         t==="and"||t==="or"||t==="nand"||t==="nor"||t==="xor"||t==="xnor"||t==="not";
+}
+function setup(){
+  buildNets();
+  branchCnt=0;intNodeCnt=0;
+  var i,e;
+  for(i=0;i<els.length;i++){
+    e=els[i];e._k=-1;e._in=-1;
+    if(e.t==="bat"&&parseVal(e.p.rs)>0){e._in=intNodeCnt++;}
+    if(needBranch(e.t))e._k=branchCnt++;
+    if(e.t==="l")e._k=branchCnt++;    /* dung cho phan tich DC (ngan mach) */
+  }
+  N=(nodeCnt-1)+intNodeCnt+branchCnt;
+  A=[];B=[];
+  for(i=0;i<N;i++){A.push(new Array(N));B.push(0);}
+  if(!X||X.length!==N){X=[];XP=[];for(i=0;i<N;i++){X.push(0);XP.push(0);}}
+  return N;
+}
+function ni(n){return n<=0?-1:n-1;}                     /* chi so nút */
+function ii(e){return (nodeCnt-1)+e._in;}               /* nút noi bo */
+function bi(e){return (nodeCnt-1)+intNodeCnt+e._k;}     /* nhanh */
+function clearM(){var i,j;for(i=0;i<N;i++){B[i]=0;for(j=0;j<N;j++)A[i][j]=0;}}
+function stampG(p,n,g){
+  p=typeof p==="number"?p:p;
+  if(p>=0){A[p][p]+=g;if(n>=0)A[p][n]-=g;}
+  if(n>=0){A[n][n]+=g;if(p>=0)A[n][p]-=g;}
+}
+function stampI(p,n,I){ if(p>=0)B[p]-=I; if(n>=0)B[n]+=I; }
+function stampVS(p,n,k,v){
+  if(p>=0){A[p][k]+=1;A[k][p]+=1;}
+  if(n>=0){A[n][k]-=1;A[k][n]-=1;}
+  B[k]+=v;
+}
+function stampVCT(p,n,cp,cn,g){ /* dong g*(Vcp-Vcn) chay tu p -> n */
+  if(p>=0){if(cp>=0)A[p][cp]+=g;if(cn>=0)A[p][cn]-=g;}
+  if(n>=0){if(cp>=0)A[n][cp]-=g;if(cn>=0)A[n][cn]+=g;}
+}
+function xv(idx){return idx<0?0:X[idx];}
+/* stamp tong quat cho linh kien phi tuyen nhieu chan */
+function stampNL(nds,I,J,v){
+  var n=nds.length,a,b,ieq;
+  for(a=0;a<n;a++){
+    if(nds[a]<0)continue;
+    ieq=I[a];
+    for(b=0;b<n;b++){
+      ieq-=J[a][b]*v[b];
+      if(nds[b]>=0)A[nds[a]][nds[b]]+=J[a][b];
+    }
+    B[nds[a]]-=ieq;
+  }
+}
+function lim(vnew,vold,vt,vcrit){
+  var arg;
+  if(vnew>vcrit&&Math.abs(vnew-vold)>2*vt){
+    if(vold>0){arg=1+(vnew-vold)/vt;vnew=arg>0?vold+vt*Math.log(arg):vcrit;}
+    else vnew=vt*Math.log(vnew/vt);
+  }
+  return vnew;
+}
+function diodeStamp(p,n,vd,Is,nf,vold){
+  var vt=nf*VT,vcrit=vt*Math.log(vt/(Math.sqrt(2)*Is));
+  vd=lim(vd,(vold===undefined?0.5:vold),vt,vcrit);
+  var id,gd,ex;
+  if(vd<-5*vt){gd=GMIN;id=-Is+gd*vd;}
+  else {ex=Math.exp(Math.min(vd/vt,80));id=Is*(ex-1);gd=Is*ex/vt+GMIN;}
+  stampG(p,n,gd);stampI(p,n,id-gd*vd);
+  return [id,gd,vd];
+}
+function srcValue(e,t){
+  switch(e.t){
+    case "vdc": case "bat": return parseVal(e.p.v);
+    case "vac": return parseVal(e.p.off)+parseVal(e.p.a)*Math.sin(2*Math.PI*parseVal(e.p.f)*t+parseVal(e.p.ph)*Math.PI/180);
+    case "vpul":
+      var f=parseVal(e.p.f),du=parseVal(e.p.duty),ph=f>0?(t*f)%1:0;
+      return ph<du?parseVal(e.p.hi):parseVal(e.p.lo);
+    case "idc": return parseVal(e.p.v);
+    case "lin": return parseVal(e.p.on)>0.5?parseVal(e.p.vdd):0;
+  }
+  return 0;
+}
+/* giai he tuyen tinh bang khu Gauss co chon truc */
+function solveLin(){
+  var i,j,k,p,mx,tmp,f;
+  for(i=0;i<N;i++){
+    mx=0;p=-1;
+    for(j=i;j<N;j++){if(Math.abs(A[j][i])>mx){mx=Math.abs(A[j][i]);p=j;}}
+    if(p<0||mx<1e-18){A[i][i]+=1e-9;p=i;if(Math.abs(A[i][i])<1e-18)return false;}
+    if(p!==i){tmp=A[p];A[p]=A[i];A[i]=tmp;tmp=B[p];B[p]=B[i];B[i]=tmp;}
+    for(j=i+1;j<N;j++){
+      f=A[j][i]/A[i][i];
+      if(f===0)continue;
+      for(k=i;k<N;k++)A[j][k]-=f*A[i][k];
+      B[j]-=f*B[i];
+    }
+  }
+  var y=new Array(N);
+  for(i=N-1;i>=0;i--){
+    var s=B[i];
+    for(j=i+1;j<N;j++)s-=A[i][j]*y[j];
+    y[i]=s/A[i][i];
+    if(!isFinite(y[i]))return false;
+  }
+  X=y;
+  return true;
+}
+/* ---------- dat khuon (stamp) cho tung linh kien ---------- */
+function logicIn(v,th){return v>th?1:0;}
+function stampAll(t,tran){
+  var i,e,ns,g,n0,n1,n2,n3;
+  for(i=0;i<els.length;i++){
+    e=els[i];ns=elNodes[e.id];if(!ns)continue;
+    n0=ni(ns[0]);n1=ni(ns[1]);n2=ni(ns[2]);n3=ni(ns[3]);
+    switch(e.t){
+      case "r": case "lamp": case "buz": case "motor":
+        g=1/Math.max(parseVal(e.p.v),1e-9);stampG(n0,n1,g);break;
+      case "vm": stampG(n0,n1,1e-9);break;
+      case "pot":
+        var R=Math.max(parseVal(e.p.v),1e-6),pos=Math.min(0.999,Math.max(0.001,parseVal(e.p.pos)));
+        stampG(n0,n2,1/(R*pos));stampG(n2,n1,1/(R*(1-pos)));break;
+      case "fuse":
+        stampG(n0,n1,e.blown?1e-12:1/Math.max(parseVal(e.p.v),1e-6));break;
+      case "sw": case "push":
+        stampG(n0,n1,parseVal(e.p.on)>0.5?1e3:1e-12);break;
+      case "c": case "ce":
+        if(tran){g=parseVal(e.p.v)/dt;stampG(n0,n1,g);stampI(n0,n1,-g*(e._v||0));}
+        else stampG(n0,n1,1e-12);
+        break;
+      case "l":
+        if(tran){g=dt/Math.max(parseVal(e.p.v),1e-12);stampG(n0,n1,g);stampI(n0,n1,e._i||0);A[bi(e)][bi(e)]+=1;}
+        else stampVS(n0,n1,bi(e),0);
+        break;
+      case "vdc": case "vac": case "vpul":
+        stampVS(n0,n1,bi(e),srcValue(e,t));break;
+      case "lin":
+        stampVS(n0,-1,bi(e),srcValue(e,t));break;
+      case "bat":
+        var rs=parseVal(e.p.rs);
+        if(e._in>=0){stampG(n0,ii(e),1/Math.max(rs,1e-6));stampVS(ii(e),n1,bi(e),parseVal(e.p.v));}
+        else stampVS(n0,n1,bi(e),parseVal(e.p.v));
+        break;
+      case "am": stampVS(n0,n1,bi(e),0);break;
+      case "idc": stampI(n0,n1,parseVal(e.p.v));break;
+      case "relay":
+        stampG(n0,n1,1/Math.max(parseVal(e.p.rc),1e-3));
+        stampG(n2,n3,e.closed?1e3:1e-12);break;
+      case "xfmr": {
+        var nn=parseVal(e.p.n),kk=bi(e);
+        /* pins: 0,1 so cap; 2,3 thu cap. V2 = n*V1, I1 = -n*I2 */
+        if(n2>=0){A[n2][kk]+=1;A[kk][n2]+=1;}
+        if(n3>=0){A[n3][kk]-=1;A[kk][n3]-=1;}
+        if(n0>=0){A[n0][kk]-=nn;A[kk][n0]-=nn;}
+        if(n1>=0){A[n1][kk]+=nn;A[kk][n1]+=nn;}
+        stampG(n0,n1,1/Math.max(parseVal(e.p.lp)*1e3,1e3));
+        break;
+      }
+      case "vcvs": {
+        var k2=bi(e),gg=parseVal(e.p.g);
+        if(n2>=0){A[n2][k2]+=1;A[k2][n2]+=1;}
+        if(n3>=0){A[n3][k2]-=1;A[k2][n3]-=1;}
+        if(n0>=0)A[k2][n0]-=gg;
+        if(n1>=0)A[k2][n1]+=gg;
+        break;
+      }
+      case "vccs": stampVCT(n2,n3,n0,n1,parseVal(e.p.g));break;
+      case "and": case "or": case "nand": case "nor": case "xor": case "xnor": case "not": {
+        var th=parseVal(e.p.th),vdd=parseVal(e.p.vdd),o,a1,b1;
+        if(e.t==="not"){a1=logicIn(xp(n0),th);o=a1?0:1;}
+        else{
+          a1=logicIn(xp(n0),th);b1=logicIn(xp(n1),th);
+          switch(e.t){
+            case "and":o=(a1&&b1)?1:0;break;
+            case "or":o=(a1||b1)?1:0;break;
+            case "nand":o=(a1&&b1)?0:1;break;
+            case "nor":o=(a1||b1)?0:1;break;
+            case "xor":o=(a1!==b1)?1:0;break;
+            default:o=(a1===b1)?1:0;break;
+          }
+        }
+        e.q=o;
+        var no=(e.t==="not")?n1:n2;
+        stampVS(no,-1,bi(e),o?vdd:0);
+        break;
+      }
+      default:
+        stampAdv(e,ns,n0,n1,n2,t,tran);
+    }
+  }
+  var lim2=(nodeCnt-1)+intNodeCnt;
+  for(i=0;i<lim2;i++)A[i][i]+=GMIN;
+}
+function xp(idx){return idx<0?0:(XP[idx]||0);}
+function bjt(e,nb,nc,ne,vb,vc,ve,Is,Bf,sign){
+  var Br=1,vt=VT,vcrit=vt*Math.log(vt/(Math.sqrt(2)*Is));
+  var vbe=lim(sign*(vb-ve),(e._vbe===undefined?0.5:e._vbe),vt,vcrit);
+  var vbc=lim(sign*(vb-vc),(e._vbc===undefined?0.3:e._vbc),vt,vcrit);
+  e._vbe=vbe;e._vbc=vbc;
+  var exbe=Math.exp(Math.min(vbe/vt,80)),exbc=Math.exp(Math.min(vbc/vt,80));
+  var If=Is*(exbe-1),Ir=Is*(exbc-1);
+  var gif=Is*exbe/vt+GMIN,gir=Is*exbc/vt+GMIN;
+  var Ic=If-Ir*(1+1/Br),Ib=If/Bf+Ir/Br;
+  var J=[[0,0,0],[0,0,0],[0,0,0]];
+  J[0][0]=gif/Bf+gir/Br; J[0][1]=-gir/Br; J[0][2]=-gif/Bf;
+  J[1][0]=gif-gir*(1+1/Br); J[1][1]=gir*(1+1/Br); J[1][2]=-gif;
+  J[2][0]=-(J[0][0]+J[1][0]); J[2][1]=-(J[0][1]+J[1][1]); J[2][2]=-(J[0][2]+J[1][2]);
+  var I=[sign*Ib,sign*Ic,-sign*(Ib+Ic)];
+  /* tuyen tinh hoa tai diem dien ap tiep giap da gioi han */
+  var vbp=ve+sign*vbe, vcp=vbp-sign*vbc;
+  stampNL([nb,nc,ne],I,J,[vbp,vcp,ve]);
+  return sign*Ic;
+}
+function mos(ng,nd,nsrc,vg,vd,vs,vt,kp,sign){
+  var vgs=sign*(vg-vs),vds=sign*(vd-vs),sw=false;
+  if(vds<0){sw=true;vgs=sign*(vg-vd);vds=-vds;}
+  var vov=vgs-vt,id=0,gm=0,gds=0;
+  if(vov>0){
+    if(vds>=vov){id=0.5*kp*vov*vov*(1+0.01*vds);gm=kp*vov*(1+0.01*vds);gds=0.5*kp*vov*vov*0.01;}
+    else {id=kp*(vov*vds-0.5*vds*vds);gm=kp*vds;gds=kp*(vov-vds);}
+  }
+  gds+=GMIN;
+  var J=[[0,0,0],[0,0,0],[0,0,0]],I=[0,0,0];
+  /* thu tu: 0=gate, 1=drain, 2=source */
+  if(!sw){
+    I[1]=sign*id;I[2]=-sign*id;
+    J[1][0]=gm;J[1][1]=gds;J[1][2]=-(gm+gds);
+    J[2][0]=-gm;J[2][1]=-gds;J[2][2]=(gm+gds);
+  }else{
+    I[2]=sign*id;I[1]=-sign*id;
+    J[2][0]=gm;J[2][2]=gds;J[2][1]=-(gm+gds);
+    J[1][0]=-gm;J[1][2]=-gds;J[1][1]=(gm+gds);
+  }
+  stampNL([ng,nd,nsrc],I,J,[vg,vd,vs]);
+  return sign*id;
+}
+function stampAdv(e,ns,n0,n1,n2,t,tran){
+  var v,r;
+  switch(e.t){
+    case "d":
+      r=diodeStamp(n0,n1,xv(n0)-xv(n1),parseVal(e.p.is),parseVal(e.p.n),e._vd);e._i=r[0];e._vd=r[2];break;
+    case "led": {
+      var nf=2,Is=0.02/Math.exp(parseVal(e.p.vf)/(nf*VT));
+      r=diodeStamp(n0,n1,xv(n0)-xv(n1),Is,nf,e._vd);e._i=r[0];e._vd=r[2];break;
+    }
+    case "zener": {
+      var vz=Math.max(parseVal(e.p.vz),0.5),Is2=1e-14,Isz=1e-6,nzv=0.02;
+      var vprev=(e._vd===undefined)?0:e._vd;
+      v=lim(xv(n0)-xv(n1),vprev>0?vprev:0.5,VT,0.7);
+      if(v<-vz&&v<vprev-0.3)v=vprev-0.3;   /* gioi han buoc khi vao vung dan nguoc */
+      e._vd=v;
+      var e1=Math.exp(Math.min(v/VT,80)),e2=Math.exp(Math.min(-(v+vz)/nzv,80));
+      var id=Is2*(e1-1)-Isz*e2,gd=Is2*e1/VT+Isz*e2/nzv+GMIN;
+      stampG(n0,n1,gd);stampI(n0,n1,id-gd*v);e._i=id;break;
+    }
+    case "npn": e._i=bjt(e,n0,n1,n2,xv(n0),xv(n1),xv(n2),parseVal(e.p.is),Math.max(parseVal(e.p.bf),1),1);break;
+    case "pnp": e._i=bjt(e,n0,n1,n2,xv(n0),xv(n1),xv(n2),parseVal(e.p.is),Math.max(parseVal(e.p.bf),1),-1);break;
+    case "nmos": e._i=mos(n0,n1,n2,xv(n0),xv(n1),xv(n2),parseVal(e.p.vt),parseVal(e.p.kp),1);break;
+    case "pmos": e._i=mos(n0,n1,n2,xv(n0),xv(n1),xv(n2),parseVal(e.p.vt),parseVal(e.p.kp),-1);break;
+    case "opamp": {
+      var k=bi(e),gO=parseVal(e.p.g),vp=parseVal(e.p.vp),vn=parseVal(e.p.vn);
+      var mid=(vp+vn)/2,amp=Math.max((vp-vn)/2,0.1);
+      var vd=xv(n0)-xv(n1),th=Math.tanh(gO*vd/amp);
+      var f=mid+amp*th,fp=gO*(1-th*th)+1e-9;
+      if(n2>=0){A[n2][k]+=1;A[k][n2]+=1;}
+      if(n0>=0)A[k][n0]-=fp;
+      if(n1>=0)A[k][n1]+=fp;
+      B[k]+=f-fp*vd;
+      break;
+    }
+  }
+}
+/* ---------- Newton-Raphson ---------- */
+function newton(t,tran){
+  var it,i,ok,d,mx;
+  for(it=0;it<120;it++){
+    var prev=X.slice(0);
+    clearM();stampAll(t,tran);
+    ok=solveLin();
+    if(!ok){simMsg="Ma trận suy biến – kiểm tra kết nối (thiếu Mass?)";return false;}
+    mx=0;
+    for(i=0;i<N;i++){d=Math.abs(X[i]-prev[i]);if(d>mx)mx=d;
+      if(!isFinite(X[i])){simMsg="Không hội tụ (giá trị vô cùng)";return false;}}
+    iterLast=it+1;
+    if(mx<1e-7)return true;
+  }
+  simMsg="Cảnh báo: chưa hội tụ hoàn toàn sau 120 vòng lặp";
+  return true;
+}
+function updateStates(){
+  var i,e,ns,n0,n1,n2,n3,v;
+  for(i=0;i<els.length;i++){
+    e=els[i];ns=elNodes[e.id];if(!ns)continue;
+    n0=ni(ns[0]);n1=ni(ns[1]);n2=ni(ns[2]);n3=ni(ns[3]);
+    switch(e.t){
+      case "c": case "ce": e._v=xv(n0)-xv(n1);break;
+      case "l": e._i=(dt/Math.max(parseVal(e.p.v),1e-12))*(xv(n0)-xv(n1))+(e._i||0);break;
+      case "relay": v=Math.abs(xv(n0)-xv(n1));e.closed=v>parseVal(e.p.vp);break;
+      case "fuse":
+        v=e.blown?0:(xv(n0)-xv(n1))/Math.max(parseVal(e.p.v),1e-6);e.res=v;
+        if(!e.blown&&Math.abs(v)>parseVal(e.p.imax))e.blown=true;break;
+      case "lamp": {
+        var R=Math.max(parseVal(e.p.v),1e-9),p=(xv(n0)-xv(n1))*(xv(n0)-xv(n1))/R;
+        e.glow=Math.min(1.2,p/Math.max(parseVal(e.p.pn),1e-6));break;
+      }
+      case "led": e.glow=Math.min(1.2,Math.abs(e._i||0)/0.01);break;
+      case "vm": e.res=xv(n0)-xv(n1);break;
+      case "am": e.res=X[bi(e)];break;
+      case "probe": e.res=xv(n0);break;
+      case "r": case "buz": case "motor": e.res=(xv(n0)-xv(n1))/Math.max(parseVal(e.p.v),1e-9);break;
+      case "vdc": case "bat": case "vac": case "vpul": e.res=X[bi(e)];break;
+    }
+  }
+  XP=X.slice(0);
+}
+function dcOp(){
+  var i;simMsg="";setup();
+  if(N===0){simMsg="Mạch đang trống";return false;}
+  for(i=0;i<N;i++){X[i]=0;XP[i]=0;}
+  for(i=0;i<25;i++){ if(!newton(0,false))return false; XP=X.slice(0); }
+  updateStates();
+  return true;
+}
+function tranStep(){
+  simTime+=dt;
+  if(!newton(simTime,true))return false;
+  updateStates();
+  return true;
+}
+/* =============== VE MAN HINH =============== */
+var cv=$("cv"),ctx=cv&&cv.getContext?cv.getContext("2d"):null,camX=0,camY=0;
+if(!ctx){
+  document.body.innerHTML='<div style="padding:24px;font:14px Tahoma;color:#e6e9ef">Trình duyệt này không hỗ trợ HTML5 Canvas.<br>Vui lòng dùng Internet Explorer 9 trở lên, Chrome hoặc Firefox (vẫn chạy tốt trên Windows 7).</div>';
+  return;
+}
+var probes=[]; /* {node:n, col:"#..", data:[] } */
+var showFlow=true,showNodes=false;
+function resize(){
+  var c=$("center");
+  cv.width=c.clientWidth;cv.height=c.clientHeight;
+  draw();
+}
+function volCol(v){
+  var a=Math.max(-1,Math.min(1,v/12));
+  if(a>=0)return "rgb("+Math.round(80+175*a)+","+Math.round(180-60*a)+","+Math.round(120-60*a)+")";
+  return "rgb("+Math.round(80+40*a)+","+Math.round(140+40*a)+","+Math.round(200+55*a)+")";
+}
+function nodeV(n){ if(n===undefined||n<=0)return 0; var idx=n-1; return (X[idx]===undefined)?0:X[idx]; }
+function drawGrid(){
+  ctx.fillStyle="#11141a";ctx.fillRect(0,0,cv.width,cv.height);
+  ctx.strokeStyle="#1b2028";ctx.lineWidth=1;
+  var x,y;
+  ctx.beginPath();
+  for(x=(camX%GRID);x<cv.width;x+=GRID){ctx.moveTo(x+0.5,0);ctx.lineTo(x+0.5,cv.height);}
+  for(y=(camY%GRID);y<cv.height;y+=GRID){ctx.moveTo(0,y+0.5);ctx.lineTo(cv.width,y+0.5);}
+  ctx.stroke();
+}
+function draw(){
+  G=ctx;
+  drawGrid();
+  ctx.save();ctx.translate(camX,camY);
+  var i,j,e,ps,w;
+  /* day dan */
+  for(i=0;i<wires.length;i++){
+    w=wires[i];
+    var nA=netOf[key(w.x1,w.y1)];
+    ctx.strokeStyle=(hasSol()&&nA!==undefined)?volCol(nodeV(nA)):"#93a1b3";
+    ctx.lineWidth=(selWire===w)?3.5:2;
+    if(selWire===w)ctx.strokeStyle="#ffcf6b";
+    ctx.beginPath();ctx.moveTo(w.x1,w.y1);ctx.lineTo(w.x2,w.y2);ctx.stroke();
+  }
+  /* diem noi */
+  var cnt={};
+  for(i=0;i<wires.length;i++){
+    cnt[key(wires[i].x1,wires[i].y1)]=(cnt[key(wires[i].x1,wires[i].y1)]||0)+1;
+    cnt[key(wires[i].x2,wires[i].y2)]=(cnt[key(wires[i].x2,wires[i].y2)]||0)+1;
+  }
+  ctx.fillStyle="#c8d3e0";
+  for(var kk in cnt){if(cnt[kk]>2){var pr=kk.split(",");ctx.beginPath();ctx.arc(+pr[0],+pr[1],3,0,6.2832,false);ctx.fill();}}
+  /* linh kien */
+  for(i=0;i<els.length;i++){
+    e=els[i];
+    ctx.save();
+    ctx.translate(e.x,e.y);ctx.rotate((e.rot&3)*Math.PI/2);
+    ctx.strokeStyle=(e===sel)?"#ffcf6b":"#dfe6ef";
+    ctx.fillStyle=(e===sel)?"#ffcf6b":"#dfe6ef";
+    ctx.lineWidth=(e===sel)?2.2:1.6;
+    try{TYPES[e.t].dr(e);}catch(err){}
+    ctx.restore();
+    /* chan */
+    ps=pinsOf(e);
+    for(j=0;j<ps.length;j++){
+      var nd=elNodes[e.id]?elNodes[e.id][j]:undefined;
+      ctx.fillStyle=hasSol()?volCol(nodeV(nd)):"#6f7d8f";
+      ctx.beginPath();ctx.arc(ps[j][0],ps[j][1],2.6,0,6.2832,false);ctx.fill();
+      if(showNodes&&nd!==undefined){ctx.fillStyle="#7a8ba0";ctx.font="9px Tahoma";ctx.fillText(nd===0?"gnd":("n"+nd),ps[j][0]+4,ps[j][1]-4);}
+    }
+    if(hasSol()&&showFlow&&e.res!==undefined&&e.t!=="vm"&&e.t!=="am"&&e.t!=="probe"){
+      ctx.fillStyle="#ffcf6b";ctx.font="9px Tahoma";ctx.textAlign="center";
+      ctx.fillText(fmt(e.res,"A"),e.x,e.y+16);ctx.textAlign="left";
+    }
+  }
+  /* que do */
+  for(i=0;i<probes.length;i++){
+    var p=probes[i];
+    ctx.fillStyle=p.col;ctx.beginPath();ctx.arc(p.x,p.y,4.5,0,6.2832,false);ctx.fill();
+    ctx.strokeStyle="#000";ctx.lineWidth=1;ctx.stroke();
+  }
+  if(drawing){
+    ctx.strokeStyle="#ffcf6b";ctx.lineWidth=2;
+    ctx.beginPath();ctx.moveTo(wx1,wy1);ctx.lineTo(wx2,wy2);ctx.stroke();
+  }
+  if(ghost){
+    ctx.save();ctx.globalAlpha=0.55;ctx.translate(ghost.x,ghost.y);ctx.rotate((ghost.rot&3)*Math.PI/2);
+    ctx.strokeStyle="#7ec8ff";ctx.fillStyle="#7ec8ff";ctx.lineWidth=1.6;
+    try{TYPES[ghost.t].dr(ghost);}catch(e2){}
+    ctx.restore();
+  }
+  ctx.restore();
+}
+function hasSol(){return X&&X.length===N&&N>0&&solved;}
+/* =============== TUONG TAC =============== */
+var mode=0, placeType=null, ghost=null, drawing=false, wx1=0,wy1=0,wx2=0,wy2=0;
+var dragEl=null,dragDX=0,dragDY=0,solved=false,panning=false,panX=0,panY=0;
+var GRPNM={1:"Cơ bản & thụ động",2:"Nguồn",3:"Bán dẫn",4:"Mạch số",5:"Đo lường / khác"};
+function buildPalette(){
+  var host=$("palette"),g,t,html="",k;
+  for(g=1;g<=5;g++){
+    html+='<div style="margin:6px 0 3px;color:#6f7d8f;font-size:10px">'+GRPNM[g]+'</div>';
+    for(k in TYPES){if(!TYPES.hasOwnProperty(k))continue;t=TYPES[k];
+      if(t.grp!==g)continue;
+      html+='<div class="pal" data-t="'+k+'">'+t.nm+'</div>';
+    }
+  }
+  host.innerHTML=html;
+  var ds=host.getElementsByTagName("div"),i;
+  for(i=0;i<ds.length;i++){
+    if(!ds[i].getAttribute("data-t"))continue;
+    ds[i].onclick=function(){
+      var j,all=host.getElementsByTagName("div");
+      for(j=0;j<all.length;j++)all[j].className=all[j].getAttribute("data-t")?"pal":all[j].className;
+      this.className="pal sel";
+      placeType=this.getAttribute("data-t");
+      ghost=mkEl(placeType,0,0);setMode(0);
+      status("Đặt linh kiện: "+TYPES[placeType].nm+" – nhấp chuột vào lưới (R để quay).");
+    };
+  }
+}
+function status(s,cls){var st=$("stat");st.innerHTML=s;st.className=cls||"";}
+function setMode(m){
+  mode=m;
+  $("bMode0").className=m===0?"on":"";
+  $("bMode1").className=m===1?"on":"";
+  $("bMode2").className=m===2?"on":"";
+  if(m!==0){placeType=null;ghost=null;}
+  cv.style.cursor=m===2?"not-allowed":"crosshair";
+}
+function hitEl(x,y){
+  var i,bb;
+  for(i=els.length-1;i>=0;i--){
+    bb=bboxOf(els[i]);
+    if(x>=bb[0]&&x<=bb[2]&&y>=bb[1]&&y<=bb[3])return els[i];
+  }
+  return null;
+}
+function hitWire(x,y){
+  var i,w,d;
+  for(i=wires.length-1;i>=0;i--){
+    w=wires[i];
+    var L=dist(w.x1,w.y1,w.x2,w.y2);if(L<1)continue;
+    var tt=((x-w.x1)*(w.x2-w.x1)+(y-w.y1)*(w.y2-w.y1))/(L*L);
+    if(tt<0)tt=0;if(tt>1)tt=1;
+    d=dist(x,y,w.x1+tt*(w.x2-w.x1),w.y1+tt*(w.y2-w.y1));
+    if(d<6)return w;
+  }
+  return null;
+}
+function mpos(ev){
+  var r=cv.getBoundingClientRect();
+  return [ev.clientX-r.left-camX,ev.clientY-r.top-camY];
+}
+cv.onmousedown=function(ev){
+  var p=mpos(ev),x=snap(p[0]),y=snap(p[1]);
+  if(ev.button===1||ev.shiftKey){panning=true;panX=p[0];panY=p[1];return false;}
+  if(ev.button===2)return true;
+  if(placeType){
+    var e=mkEl(placeType,x,y);e.rot=ghost?ghost.rot:0;els.push(e);sel=e;selWire=null;
+    invalidate();showProps();draw();return false;
+  }
+  if(mode===1){drawing=true;wx1=x;wy1=y;wx2=x;wy2=y;return false;}
+  if(mode===2){
+    var he=hitEl(p[0],p[1]);
+    if(he){delEl(he);}else{var hw=hitWire(p[0],p[1]);if(hw)wires.splice(wires.indexOf(hw),1);}
+    invalidate();draw();return false;
+  }
+  var he2=hitEl(p[0],p[1]);
+  if(he2){sel=he2;selWire=null;dragEl=he2;dragDX=p[0]-he2.x;dragDY=p[1]-he2.y;showProps();draw();return false;}
+  var hw2=hitWire(p[0],p[1]);
+  sel=null;selWire=hw2;showProps();draw();
+  return false;
+};
+cv.onmousemove=function(ev){
+  var p=mpos(ev),x=snap(p[0]),y=snap(p[1]);
+  if(panning){camX+=p[0]-panX;camY+=p[1]-panY;draw();return false;}
+  if(ghost){ghost.x=x;ghost.y=y;draw();}
+  if(drawing){
+    /* uu tien duong ngang/doc */
+    if(Math.abs(x-wx1)>=Math.abs(y-wy1)){wx2=x;wy2=wy1;}else{wx2=wx1;wy2=y;}
+    draw();return false;
+  }
+  if(dragEl){dragEl.x=snap(p[0]-dragDX);dragEl.y=snap(p[1]-dragDY);invalidate();draw();return false;}
+  return true;
+};
+cv.onmouseup=function(ev){
+  if(panning){panning=false;return false;}
+  if(drawing){
+    drawing=false;
+    if(wx1!==wx2||wy1!==wy2){wires.push({x1:wx1,y1:wy1,x2:wx2,y2:wy2});invalidate();}
+    draw();return false;
+  }
+  if(dragEl){dragEl=null;draw();}
+  return true;
+};
+cv.oncontextmenu=function(ev){
+  var p=mpos(ev),x=snap(p[0]),y=snap(p[1]);
+  addProbe(x,y);
+  return false;
+};
+cv.ondblclick=function(ev){
+  var p=mpos(ev),e=hitEl(p[0],p[1]);
+  if(!e)return;
+  if(e.t==="sw"||e.t==="push"||e.t==="lin"){e.p.on=(parseVal(e.p.on)>0.5)?"0":"1";showProps();draw();}
+};
+function delEl(e){
+  var i=els.indexOf(e);if(i>=0)els.splice(i,1);
+  if(sel===e)sel=null;
+}
+function invalidate(){solved=false;buildNets();}
+/* =============== BANG THUOC TINH =============== */
+function showProps(){
+  var host=$("props"),i,t,html="";
+  if(!sel){host.innerHTML=selWire?"Đã chọn 1 dây dẫn. Nhấn Del để xóa.":"Chưa chọn linh kiện.";return;}
+  t=TYPES[sel.t];
+  html='<div style="color:#7ec8ff;margin-bottom:5px">'+t.nm+' #'+sel.id+'</div>';
+  for(i=0;i<t.ps.length;i++){
+    html+='<div class="row"><label>'+t.ps[i].l+'</label><input data-k="'+t.ps[i].k+'" value="'+sel.p[t.ps[i].k]+'"></div>';
+  }
+  if(!t.ps.length)html+='<div style="color:#6f7d8f">Linh kiện này không có tham số.</div>';
+  html+='<div style="margin-top:5px"><button id="bApply">Áp dụng</button><button id="bRot2">Quay</button><button id="bDel2">Xóa</button></div>';
+  host.innerHTML=html;
+  var ins=host.getElementsByTagName("input");
+  function apply(){
+    var j,ins2=host.getElementsByTagName("input");
+    for(j=0;j<ins2.length;j++)sel.p[ins2[j].getAttribute("data-k")]=ins2[j].value;
+    solved=false;draw();status("Đã cập nhật tham số.","ok");
+  }
+  for(i=0;i<ins.length;i++){ins[i].onchange=apply;ins[i].onkeyup=function(ev){if(ev.keyCode===13)apply();};}
+  $("bApply").onclick=apply;
+  $("bRot2").onclick=function(){sel.rot=(sel.rot+1)&3;invalidate();draw();};
+  $("bDel2").onclick=function(){delEl(sel);sel=null;invalidate();showProps();draw();};
+}
+/* =============== QUE DO & DAO DONG KY =============== */
+var PCOL=["#7fdc8c","#ffcf6b","#7ec8ff","#ff8ab0","#c9a0ff","#8ff0e0"];
+function addProbe(x,y){
+  var i;
+  for(i=0;i<probes.length;i++)if(probes[i].x===x&&probes[i].y===y){probes.splice(i,1);renderProbeList();draw();return;}
+  buildNets();
+  var n=netOf[key(x,y)];
+  if(n===undefined){status("Không có điểm nối tại vị trí đó.","warn");return;}
+  probes.push({x:x,y:y,net:n,col:PCOL[probes.length%PCOL.length],data:[]});
+  renderProbeList();draw();
+}
+function renderProbeList(){
+  var h="",i;
+  if(!probes.length)h="Nhấp chuột phải vào dây/chân để đo.";
+  for(i=0;i<probes.length;i++)h+='<span style="color:'+probes[i].col+'">&#9632; nút '+(probes[i].net===0?"gnd":probes[i].net)+'</span> ';
+  $("probes").innerHTML=h;
+}
+var sc=$("scope"),sctx=sc.getContext("2d");
+function drawScope(){
+  var w=sc.width,h=sc.height,i,j,p,mx=1,v;
+  sctx.fillStyle="#05080c";sctx.fillRect(0,0,w,h);
+  sctx.strokeStyle="#1a2430";sctx.beginPath();
+  for(i=0;i<=8;i++){sctx.moveTo(i*w/8,0);sctx.lineTo(i*w/8,h);}
+  for(i=0;i<=4;i++){sctx.moveTo(0,i*h/4);sctx.lineTo(w,i*h/4);}
+  sctx.stroke();
+  sctx.strokeStyle="#2c3b4c";sctx.beginPath();sctx.moveTo(0,h/2);sctx.lineTo(w,h/2);sctx.stroke();
+  var man=$("iVdiv").value;
+  if(man!=="auto"&&parseVal(man)>0)mx=parseVal(man);
+  else{for(i=0;i<probes.length;i++)for(j=0;j<probes[i].data.length;j++){v=Math.abs(probes[i].data[j]);if(v>mx)mx=v;}mx*=1.15;}
+  for(i=0;i<probes.length;i++){
+    p=probes[i];if(p.data.length<2)continue;
+    sctx.strokeStyle=p.col;sctx.lineWidth=1.3;sctx.beginPath();
+    for(j=0;j<p.data.length;j++){
+      var xx=j*w/Math.max(p.data.length-1,1),yy=h/2-(p.data[j]/mx)*(h/2-4);
+      if(j===0)sctx.moveTo(xx,yy);else sctx.lineTo(xx,yy);
+    }
+    sctx.stroke();
+  }
+  sctx.fillStyle="#6f7d8f";sctx.font="9px Tahoma";
+  sctx.fillText("+"+mx.toFixed(2)+"V",3,10);sctx.fillText("-"+mx.toFixed(2)+"V",3,h-3);
+  sctx.fillText("t = "+fmt(simTime,"s"),w-70,10);
+}
+function sample(){
+  var i,p;
+  for(i=0;i<probes.length;i++){
+    p=probes[i];
+    p.data.push(nodeV(p.net));
+    if(p.data.length>420)p.data.shift();
+  }
+}
+/* =============== BANG KET QUA =============== */
+function renderTable(){
+  var h="",i,e,n;
+  h+='<tr><td class="k">Thội gian</td><td>'+fmt(simTime,"s")+'</td></tr>';
+  h+='<tr><td class="k">Số nút</td><td>'+(nodeCnt-1)+' + gnd</td></tr>';
+  h+='<tr><td class="k">Số ẩn số</td><td>'+N+'</td></tr>';
+  h+='<tr><td class="k">Vòng lặp Newton</td><td>'+iterLast+'</td></tr>';
+  for(n=1;n<nodeCnt&&n<=14;n++)h+='<tr><td class="k">V(n'+n+')</td><td>'+fmt(nodeV(n),"V")+'</td></tr>';
+  for(i=0;i<els.length;i++){
+    e=els[i];
+    if(e.res===undefined)continue;
+    if(e.t==="vm")h+='<tr><td class="k">Vôn kế #'+e.id+'</td><td>'+fmt(e.res,"V")+'</td></tr>';
+    if(e.t==="am")h+='<tr><td class="k">Ampe kế #'+e.id+'</td><td>'+fmt(e.res,"A")+'</td></tr>';
+    if(e.t==="probe")h+='<tr><td class="k">Que đo #'+e.id+'</td><td>'+fmt(e.res,"V")+'</td></tr>';
+  }
+  $("tbody").innerHTML=h;
+}
+/* =============== VONG CHAY MO PHONG =============== */
+var timer=null;
+function startSim(){
+  dt=parseVal($("iDt").value);if(!(dt>0))dt=1e-5;
+  if(!dcOp()){status(simMsg||"Lỗi phân tích DC","err");solved=false;draw();return;}
+  solved=true;simTime=0;
+  var i,e;
+  /* dieu kien dau: tu dien / cuon cam theo tham so ban dau */
+  for(i=0;i<els.length;i++){
+    e=els[i];
+    if(e.t==="c"||e.t==="ce")e._v=parseVal(e.p.ic)||0;
+    if(e.t==="l")e._i=parseVal(e.p.il)||0;
+    if(e.t==="fuse")e.blown=false;
+  }
+  for(i=0;i<probes.length;i++)probes[i].data=[];
+  running=true;
+  if(timer)clearInterval(timer);
+  timer=setInterval(frame,33);
+  status("Đang mô phỏng... bước "+fmt(dt,"s")+(noGnd?" | CẢNH BÁO: mạch chưa có Mass (GND), đã tự chọn 1 nút làm mass":""),noGnd?"warn":"ok");
+}
+function stopSim(){running=false;if(timer){clearInterval(timer);timer=null;}status("Đã dừng mô phỏng tại t = "+fmt(simTime,"s"));}
+function frame(){
+  if(!running)return;
+  var sp=Math.max(1,Math.round(parseVal($("iSpeed").value)||20)),i,ok=true;
+  for(i=0;i<sp;i++){
+    ok=tranStep();
+    if(!ok)break;
+    if(i%Math.max(1,Math.round(sp/6))===0)sample();
+  }
+  draw();drawScope();renderTable();
+  if(!ok){stopSim();status(simMsg,"err");}
+}
+function runDC(){
+  dt=parseVal($("iDt").value)||1e-5;
+  stopSim();simTime=0;
+  if(!dcOp()){solved=false;status(simMsg||"Lỗi phân tích","err");draw();return;}
+  solved=true;draw();drawScope();renderTable();
+  status("Phân tích điểm làm việc DC hoàn tất ("+iterLast+" vòng lặp)."+(simMsg?" "+simMsg:""),simMsg?"warn":"ok");
+}
+/* =============== LUU / MO / MACH MAU =============== */
+function serialize(){
+  return JSON.stringify({v:1,els:els,wires:wires,uid:uid,dt:$("iDt").value},null,1);
+}
+function loadData(o){
+  els=o.els||[];wires=o.wires||[];uid=o.uid||1;probes=[];sel=null;selWire=null;solved=false;
+  var i;for(i=0;i<els.length;i++){if(!els[i].p)els[i].p={};}
+  if(o.dt)$("iDt").value=o.dt;
+  invalidate();renderProbeList();showProps();draw();drawScope();renderTable();
+}
+function saveFile(){
+  var s=serialize(),name="mach-dien.json";
+  try{
+    var blob=new Blob([s],{type:"application/json"});
+    if(navigator.msSaveBlob){navigator.msSaveBlob(blob,name);return;}
+    var a=document.createElement("a"),url=URL.createObjectURL(blob);
+    a.href=url;a.download=name;document.body.appendChild(a);a.click();
+    setTimeout(function(){document.body.removeChild(a);URL.revokeObjectURL(url);},100);
+  }catch(e){
+    var w=window.open("","_blank");
+    if(w){w.document.write("<pre>"+s.replace(/</g,"&lt;")+"</pre>");}
+    else status("Trình duyệt không hỗ trợ tải file.","warn");
+  }
+  try{localStorage.setItem("circuitlab_vn",s);}catch(e2){}
+}
+function demo(){
+  els=[];wires=[];probes=[];uid=1;
+  function add(t,x,y,rot,p){var e=mkEl(t,x,y);e.rot=rot||0;if(p){for(var k in p)if(p.hasOwnProperty(k))e.p[k]=p[k];}els.push(e);return e;}
+  function wire(x1,y1,x2,y2){wires.push({x1:x1,y1:y1,x2:x2,y2:y2});}
+  /* Chinh luu nua chu ky + loc RC + LED */
+  add("vac",120,240,1,{a:"12",f:"50",ph:"0",off:"0"});
+  wire(120,220,120,160);wire(120,160,200,160);
+  add("d",220,160,0,{});
+  wire(240,160,320,160);
+  add("ce",320,200,1,{v:"47u"});
+  wire(320,160,420,160);
+  add("r",440,160,0,{v:"1k"});
+  wire(460,160,520,160);
+  add("led",520,200,1,{vf:"2",col:"red"});
+  wire(520,220,520,300);wire(320,220,320,300);wire(320,300,520,300);
+  wire(120,260,120,300);wire(120,300,320,300);
+  add("gnd",320,300,0,{});
+  add("vm",620,200,1,{});
+  wire(620,180,620,160);wire(520,160,620,160);
+  wire(620,220,620,300);wire(520,300,620,300);
+  invalidate();
+  addProbe(120,160);addProbe(320,160);
+  $("iDt").value="2e-5";$("iSpeed").value="60";
+  showProps();draw();
+  status("Đã nạp mạch mẫu: chỉnh lưu nửa chu kỳ + tụ lọc + LED. Nhấn Chạy để mô phỏng.","ok");
+}
+/* =============== GAN SU KIEN =============== */
+$("bMode0").onclick=function(){setMode(0);};
+$("bMode1").onclick=function(){setMode(1);status("Chế độ vẽ dây: kéo chuột từ điểm nối này sang điểm nối khác.");};
+$("bMode2").onclick=function(){setMode(2);status("Chế độ xóa: nhấp vào linh kiện hoặc dây để xóa.");};
+$("bRot").onclick=function(){if(sel){sel.rot=(sel.rot+1)&3;invalidate();}else if(ghost){ghost.rot=(ghost.rot+1)&3;}draw();};
+$("bDel").onclick=function(){
+  if(sel){delEl(sel);sel=null;}
+  else if(selWire){wires.splice(wires.indexOf(selWire),1);selWire=null;}
+  invalidate();showProps();draw();
+};
+$("bRun").onclick=startSim;
+$("bStop").onclick=stopSim;
+$("bDC").onclick=runDC;
+$("bNew").onclick=function(){
+  if(!window.confirm("Xóa toàn bộ mạch hiện tại?"))return;
+  stopSim();els=[];wires=[];probes=[];sel=null;selWire=null;uid=1;simTime=0;solved=false;
+  invalidate();renderProbeList();showProps();draw();drawScope();renderTable();status("Đã tạo bản vẽ mới.");
+};
+$("bSave").onclick=saveFile;
+$("bLoad").onclick=function(){$("fIn").click();};
+$("fIn").onchange=function(){
+  var f=this.files&&this.files[0];if(!f)return;
+  var fr=new FileReader();
+  fr.onload=function(){
+    try{loadData(JSON.parse(fr.result));status("Đã mở file mạch.","ok");}
+    catch(e){status("File không hợp lệ.","err");}
+  };
+  fr.readAsText(f);
+};
+$("bDemo").onclick=function(){stopSim();demo();};
+$("iFlow").onclick=function(){showFlow=this.checked;draw();};
+$("iNodes").onclick=function(){showNodes=this.checked;draw();};
+document.onkeydown=function(ev){
+  var tg=ev.target||ev.srcElement,tn=tg&&tg.tagName?tg.tagName.toLowerCase():"";
+  if(tn==="input"||tn==="select"||tn==="textarea")return true;
+  var k=ev.keyCode;
+  if(k===82){ $("bRot").onclick(); return false; }                 /* R */
+  if(k===46||k===8){ $("bDel").onclick(); return false; }          /* Del */
+  if(k===87){ setMode(1); return false; }                          /* W */
+  if(k===69){ setMode(2); return false; }                          /* E */
+  if(k===83){ setMode(0); return false; }                          /* S */
+  if(k===27){ placeType=null;ghost=null;drawing=false;setMode(0);draw();return false; }
+  if(k===32){ if(running)stopSim();else startSim(); return false; } /* Space */
+  return true;
+};
+window.onresize=resize;
+/* =============== KHOI TAO =============== */
+buildPalette();
+resize();
+var saved=null;
+try{saved=localStorage.getItem("circuitlab_vn");}catch(e3){}
+if(saved){try{loadData(JSON.parse(saved));status("Đã phục hồi bản vẽ lần trước. Nhấn Chạy để mô phỏng.");}catch(e4){demo();}}
+else demo();
+runDC();
+setInterval(function(){try{localStorage.setItem("circuitlab_vn",serialize());}catch(e5){}},15000);
+drawScope();
+})();
+</script>
+</body>
+</html>
